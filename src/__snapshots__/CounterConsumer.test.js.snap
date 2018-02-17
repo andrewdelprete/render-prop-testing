@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`accepts an initial value 1`] = `
+<CounterConsumer
+  initial={1999}
+>
+  <Counter
+    initial={1999}
+  >
+    <div
+      className="content"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <h1>
+        1999
+      </h1>
+      <button
+        className="button is-success"
+        onClick={[Function]}
+      >
+        Increment
+      </button>
+      <button
+        className="button is-danger"
+        onClick={[Function]}
+      >
+        Decrement
+      </button>
+    </div>
+  </Counter>
+</CounterConsumer>
+`;
+
+exports[`decrements counter 1`] = `
+<CounterConsumer>
+  <Counter>
+    <div
+      className="content"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <h1>
+        -1
+      </h1>
+      <button
+        className="button is-success"
+        onClick={[Function]}
+      >
+        Increment
+      </button>
+      <button
+        className="button is-danger"
+        onClick={[Function]}
+      >
+        Decrement
+      </button>
+    </div>
+  </Counter>
+</CounterConsumer>
+`;
+
+exports[`increments counter 1`] = `
+<CounterConsumer>
+  <Counter>
+    <div
+      className="content"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <h1>
+        1
+      </h1>
+      <button
+        className="button is-success"
+        onClick={[Function]}
+      >
+        Increment
+      </button>
+      <button
+        className="button is-danger"
+        onClick={[Function]}
+      >
+        Decrement
+      </button>
+    </div>
+  </Counter>
+</CounterConsumer>
+`;
