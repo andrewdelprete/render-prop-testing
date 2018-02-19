@@ -5,5 +5,6 @@ This is the source used for my egghead videos:
 # Installation
 ```
 yarn (or npm install)
+yarn start
 yarn test
 ```
